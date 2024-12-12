@@ -1,0 +1,22 @@
+aws:
+  parameterStore:
+    parameters:
+      - prefix: /app/RMCS
+        profile-separator: "/"
+        values:
+          - /database/url
+          - /database/username
+          - /database/passwordKey
+          - /svc/username
+          - /svc/passwordKey
+          - /oauth2/client/accessTokenUrl
+          - /oauth2/client/grantType
+          - /api/gateway/url
+          - /email/error/subject
+          - /email/error/body
+          - /email/error/from
+          - /email/error/to
+          - /email/error/cc
+          - /retry/initialInterval
+          - /retry/maxAttempts
+          - /retry/multiplierFactor
