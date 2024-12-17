@@ -1,0 +1,20 @@
+{
+  "businessObjectDataKey": {
+    "namespace": "RMCS-APIBI",
+    "businessObjectDefinitionName": "RMCS-APIBI-RECEIVABLES-IN",
+    "businessObjectFormatUsage": "BILLING",
+    "businessObjectFormatFileType": "JSONL",
+    "businessObjectFormatVersion": 0,
+    "partitionValue": "2023-03-14",
+    "subPartitionValues": [
+      "f75ff04e-6521-4090-9f6f-6047ef003c3c"
+    ],
+    "businessObjectDataVersion": 0
+  },
+  "eventDate": "2023-03-14T20:34:16.650-04:00",
+  "newBusinessObjectDataStatus": "VALID",
+  "oldBusinessObjectDataStatus": "UPLOADING",
+  "attributes": {
+    "revenue_stream": "APIBI"
+  }
+}
