@@ -1,0 +1,10 @@
+{
+  "MessageAttributes":
+    {
+      "dryRun" : {
+        "Type": "String",
+        "Value": "true"
+      }
+
+    }
+}

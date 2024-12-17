@@ -1,0 +1,33 @@
+aws:
+  parameterStore:
+    parameters:
+      - prefix: /app/RMCS
+        profile-separator: "/"
+        values:
+          - /database/ebill/url
+          - /database/ebill/username
+          - /database/ebill/passwordKey
+          - /svc/username
+          - /svc/passwordKey
+          - /oauth2/client/accessTokenUrl
+          - /oauth2/client/grantType
+          - /oauth2/client/scope
+          - /api/fci/validationUrl
+          - /fip/token/enable
+          - /aci/client/id
+          - /aci/client/secret
+          - /aci/client/grantType
+          - /aci/client/tokenUrl
+          - /aci/client/fundingAccountUrl
+          - /aci/client/x-auth-key
+          - /aci/client/payment-initialize-url
+          - /cors/ebill/domain
+          - /ews/api/user
+          - /ews/api/url
+          - /ews/tokenUrl
+          - /payment/create/processUrl
+          - /dxtn/fcn/url
+          - /dxtn/fcn/userName
+          - /ews/api/internal/tokenUrl
+          - /app/internal/payment/notification/email
+      
