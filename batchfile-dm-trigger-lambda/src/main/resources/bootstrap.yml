@@ -1,0 +1,7 @@
+aws:
+  parameterStore:
+    parameters:
+      - prefix: /app/RMCS
+        profile-separator: "/"
+        values:
+          - /sfn/arn
