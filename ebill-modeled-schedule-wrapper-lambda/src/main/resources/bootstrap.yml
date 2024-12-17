@@ -1,0 +1,30 @@
+aws:
+  parameterStore:
+    parameters:
+      - prefix: /app/RMCS
+        profile-separator: "/"
+        values:
+          - /database/username
+          - /database/passwordKey
+          - /database/ebill/url
+          - /database/ebill/username
+          - /database/ebill/passwordKey          
+          - /ews/api/user
+          - /aci/client/id
+          - /aci/client/secret
+          - /aci/client/tokenUrl
+          - /aci/client/paymentUrl
+          - /aci/client/grantType
+          - /aci/client/x-auth-key
+          - /ews/api/url
+          - /ews/tokenUrl
+          - /oauth2/client/accessTokenUrl
+          - /oauth2/client/grantType
+          - /oauth2/client/scope
+          - /svc/username
+          - /svc/passwordKey
+          - /api/ebill/modelUrl
+          - /api/ebill/internalModelUrl
+          - /sns/internal/notification/topicArn
+          - /api/ebill/runDataRefreshAlert1
+          - /api/ebill/runDataRefreshAlert2

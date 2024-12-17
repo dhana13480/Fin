@@ -1,0 +1,16 @@
+{
+    "transmission_id": "7fd41b5e-5547-4394-bc08-ec35bf2f251f",
+    "total_amount": 50.00,
+    "funding_account": "070df15759499c08bfd34fe1c64345c9820bf88a4bdc87f59638d830143b00a0",
+    "payment_type": "ACH",
+    "processing_revenue_stream": "CRDRG",
+    "one_time_pay":"FALSE",
+    "payments": [
+        {
+            "ebill_id": "7121010-dfsf-1211-cfdf",
+            "amount": 50.00,
+            "revenue_stream": "CRDRG",
+            "biller_id": "8aacec24-da21-47c9-b869-91d05ee42876"
+        }
+    ]
+}
