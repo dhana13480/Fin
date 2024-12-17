@@ -1,0 +1,11 @@
+aws:
+  parameterStore:
+    parameters:
+      - prefix: /app/RMCS
+        profile-separator: "/"
+        values:
+          - /slam/topicArn
+          - /svc/username
+          - /svc/passwordKey
+          - /oauth2/client/accessTokenUrl
+          - /oauth2/client/grantType
