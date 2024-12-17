@@ -1,0 +1,56 @@
+{
+  "MessageId": "6de6e94a-7e41-402d-9e80-6800c6710977",
+  "receiptHandle": "AQEBQaMf5WsrF27SxfG5CqXHd1+8m/1ZAQs21t0kFWPVtPgFJ2X8DtASZitQf1QYVyS3djEdML4FzD4k+qR/BfhWR+4qEi16UOA3O+a+Sg1BA0DVpUEeSzkfYxYc4pMOuG7XgGTbXX1yfAtnOBO3knwVC5rZUWrD6MFyuqJgoYEj9ATY6bSmLzQmbnU9T42HhF1YcvY8mzaBfxA4qUrT8+pcG+n1jk0YxHK9K8NPKYKw9EWRQjLDYsrJGchhSmN0/fIcJcTyDkNZ7oxfZ/a+UZhxAVWjjKI3+QFE5vdvkyl2wXWjnuhbzrIv3qWxmcWzxhhaZJIWgA1FsTj6939SldD34/5b/ZZPJ4U7azYVIbNRMFKHYl62+7PIZV4+7bBuacSSvc1UbjMpUODyYzVRfWLPbgLMYlYVE8RPJSf8jbJXWZ5w0a1bWLplNGzvKXXAhBBe",
+  "Message": "{\n    \"payment_req_id\": \"1074eb54-4bf0-460a-b6aa-cde72303cea6\",\n    \"payment_id\": [\"92675d91-3aa8-42b6-a66a-68054df47465\"],\n    \"event_name\": \"PAID\",\n    \"payment_number\": [\"payment_number\"],\n    \"transmission_id\": \"d7e73b8d-1323-456f-a990-411086d3715c\",\n    \"processing_revenue_stream\": \"MQPBI\",\n    \"invoice_id\": [\"MQPBI-12345\"],\n    \"customer_ids\": [\"customerId\"]\n, \"ews_user_name\":null\n}",
+  "attributes": {
+    "ApproximateReceiveCount": "1",
+    "SentTimestamp": "1690737979834",
+    "SenderId": "AROAWYU4CHW45XGX4LMFE:K32096",
+    "ApproximateFirstReceiveTimestamp": "1690737979846"
+  },
+  "messageAttributes": {
+    "environment": {
+      "Type": "String",
+      "Value": "DEV_INT"
+    },
+    "messageType": {
+      "Type": "String",
+      "Value": "BUS_OBJCT_DATA_STTS_CHG"
+    },
+    "sourceSystem": {
+      "Type": "String",
+      "Value": "DATAMGT"
+    },
+    "filterAttributeValue": {
+      "Type": "String",
+      "Value": "APIBI"
+    },
+    "namespace": {
+      "Type": "String",
+      "Value": "RMCS-APIBI"
+    },
+    "messageId": {
+      "Type": "String",
+      "Value": "49c84e72-445c-4251-9522-d66cf499e33f"
+    },
+    "messageVersion": {
+      "Type": "String",
+      "Value": "1"
+    },
+    "userId": {
+      "Type": "String",
+      "Value": "svc_rmcs_d@corp.root.nasd.com"
+    }
+  },
+  "md5OfBody": "e5b4d93192cc0c0675f5b5bc89223263",
+  "eventSource": "aws:sqs",
+  "eventSourceARN": "arn:aws:sqs:us-east-1:465257512377:ESMP-X-D-RMCS-RECEIVABLE-PAYMENT_NOTIFICATION_DEV02_QUEUE",
+  "awsRegion": "us-east-1",
+  "Type": "Notification",
+  "TopicArn": "arn:aws:sns:us-east-1:465257512377:ESMP-X-I-DATAMGT-HERD-NOTIFICATIONS",
+  "Timestamp": "2023-03-06T20:06:42.936Z",
+  "SignatureVersion": "1",
+  "Signature": "J6+DwmbvcnNxhhIyK8vC2mWcMsAqHWcsAgbSqcMl/76ZxqIhdORfACiArSC11LJmzae9waEwwpZjXfLXL4PFWogGHwvGK/IecIlivmREFk2x8EswP6Bxd+ATnYAB/3xQb0ECSEM+axisZNMjBbVpknlYcS3YtFbSV2f3tVjh4VE0vS13o0O+FGDC0u43yFrNsoecilZgzHutFAy0nlTd3Yr5Fzc3OLMgM/Qy5G/ctZ5YATVgQSQClCEYa0uUzCa5PFNMgTsGUSmaU+L/8TBOhJlLTNVJVBjtQw3KxyIh9gVgvGmWIKB1qRmr/4w1SHszchADmuRktlY2lHVZKZ5uyA==",
+  "SigningCertURL": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-56e67fcb41f6fec09b0196692625d385.pem",
+  "UnsubscribeURL": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:465257512377:ESMP-X-I-DATAMGT-HERD-NOTIFICATIONS:bc3bfc52-7d5b-4e7b-903f-50f3ad0c3694"
+}

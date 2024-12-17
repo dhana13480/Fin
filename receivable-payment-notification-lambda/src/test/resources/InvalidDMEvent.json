@@ -1,0 +1,45 @@
+{
+  "Type": "Notification",
+  "MessageId": "c7141a29-c544-5550-98d6-46a98f562413",
+  "TopicArn": "arn:aws:sns:us-east-1:465257512377:ESMP-X-I-DATAMGT-HERD-NOTIFICATIONS",
+  "Message": "{\n  \"eventDate\" : \"2023-03-06T15:06:42.924-05:00\",\n  \"businessObjectDataKey\" : {\n    \"namespace\" : \"RMCS-APIBI\",\n    \"businessObjectDefinitionName\" : \"RMCS-APIBI-RECEIVABLES-IN\",\n    \"businessObjectFormatUsage\" : \"BILLING\",\n    \"businessObjectFormatFileType\" : \"JSONL\",\n    \"businessObjectFormatVersion\" : 0,\n    \"partitionValue\" : \"2023-03-13\",\n        \"subPartitionValues\" : [\n         \"58450e2f-d502-413d-a9da-4cadbf5fdf55\"\n               ],\n        \"businessObjectDataVersion\" : 0\n  },\n  \"newBusinessObjectDataStatus\" : \"UPLOADING\"\n   ,\n      \"oldBusinessObjectDataStatus\" : \"UPLOADING\"\n      ,\n      \"attributes\" : {\n         \"revenue_stream\" : \"APIBI\"\n     }\n   }\n",
+  "Timestamp": "2023-03-06T20:06:42.936Z",
+  "SignatureVersion": "1",
+  "Signature": "J6+DwmbvcnNxhhIyK8vC2mWcMsAqHWcsAgbSqcMl/76ZxqIhdORfACiArSC11LJmzae9waEwwpZjXfLXL4PFWogGHwvGK/IecIlivmREFk2x8EswP6Bxd+ATnYAB/3xQb0ECSEM+axisZNMjBbVpknlYcS3YtFbSV2f3tVjh4VE0vS13o0O+FGDC0u43yFrNsoecilZgzHutFAy0nlTd3Yr5Fzc3OLMgM/Qy5G/ctZ5YATVgQSQClCEYa0uUzCa5PFNMgTsGUSmaU+L/8TBOhJlLTNVJVBjtQw3KxyIh9gVgvGmWIKB1qRmr/4w1SHszchADmuRktlY2lHVZKZ5uyA==",
+  "SigningCertURL": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-56e67fcb41f6fec09b0196692625d385.pem",
+  "UnsubscribeURL": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:465257512377:ESMP-X-I-DATAMGT-HERD-NOTIFICATIONS:bc3bfc52-7d5b-4e7b-903f-50f3ad0c3694",
+  "MessageAttributes": {
+    "environment": {
+      "Type": "String",
+      "Value": "DEV_INT"
+    },
+    "messageType": {
+      "Type": "String",
+      "Value": "BUS_OBJCT_DATA_STTS_CHG"
+    },
+    "sourceSystem": {
+      "Type": "String",
+      "Value": "DATAMGT"
+    },
+    "filterAttributeValue": {
+      "Type": "String",
+      "Value": "APIBI"
+    },
+    "namespace": {
+      "Type": "String",
+      "Value": "RMCS-APIBI"
+    },
+    "messageId": {
+      "Type": "String",
+      "Value": "49c84e72-445c-4251-9522-d66cf499e33f"
+    },
+    "messageVersion": {
+      "Type": "String",
+      "Value": "1"
+    },
+    "userId": {
+      "Type": "String",
+      "Value": "svc_rmcs_d@corp.root.nasd.com"
+    }
+  }
+}

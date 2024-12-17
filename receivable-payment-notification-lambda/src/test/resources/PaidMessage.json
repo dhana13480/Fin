@@ -1,0 +1,11 @@
+{
+  "Type": "Notification",
+  "MessageId": "00edca5b-0ac8-5d4b-9ea9-971ba733c4ac",
+  "TopicArn": "arn:aws:sns:us-east-1:465257512377:ESMP-X-D-RMCS-PAYMENT-NOTIFICATION_DEV02_TOPIC",
+  "Message": "{\"payment_req_id\":\"f8bb1406-47fa-4d7d-89f6-dd29abc9705e\",\"payment_id\":[\"46ea0ea6-bdf0-43c9-9288-c5ff12dc16f1\"],\"event_name\":\"PAID\",\"payment_number\":[\"O20230754823\"],\"transmission_id\":\"181b1490-ba12-4846-aad8-e3b9b9e33098\",\"processing_revenue_stream\":\"MQPBI\",\"confirmation_number\":\"1234\",\"invoice_id\":[\"MQP-123123124\"],\"customer_ids\":[\"111-MQP\"]}",
+  "Timestamp": "2023-07-30T18:28:11.910Z",
+  "SignatureVersion": "1",
+  "Signature": "VS+r2G2yj409g7nbi1ACABMuj7TTWZPV4Btv+oCpQXX7qcVZG/9Dz5ViQLQksxSzbPu2Duxs5MXWVyvrywuHhljxmlkhbhzkgA7ZJPtFeAs4Id1kDoBLPrPIKBeTH0vDWTtAjOpZtrPS8vCbVMMkB01Ub6W4hn2b+9QtQzc8AX0+Z9jCAGgOrgitteYXHrfYXADIkDcsrMsUUp/jg/9Nt2pSy+mp0LlPbzJoT51WE8524aOQopzR+Z70qfmbbi+eotAI+VaV3tZJzDsirYU6LkyE0tr4Fn9XxRVSIaXekmUpUuYi01oOBRIPTsMb3IX9VzX9EngzkYlsbOLYAn7Uiw==",
+  "SigningCertURL": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-01d088a6f77103d0fe307c0069e40ed6.pem",
+  "UnsubscribeURL": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:465257512377:ESMP-X-D-RMCS-PAYMENT-NOTIFICATION_DEV02_TOPIC:2b1061b8-4b41-4fc9-b1f7-9ae9ee7cb5fa"
+}

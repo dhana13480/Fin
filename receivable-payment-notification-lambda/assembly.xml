@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>assembly</artifactId>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-clean-plugin</artifactId>
+        <configuration>
+          <skip>true</skip>
+        </configuration>
+        <groupId>org.apache.maven.plugins</groupId>
+        <version>3.2.0</version>
+      </plugin>
+    </plugins>
+  </build>
+  <groupId>org.finra.rmcs</groupId>
+  <modelVersion>4.0.0</modelVersion>
+  <modules>
+    <module>../common-module</module>
+    <module>../receivable-payment-notification-lambda</module>
+  </modules>
+
+  <packaging>pom</packaging>
+
+  <version>1.0-SNAPSHOT</version>
+</project>

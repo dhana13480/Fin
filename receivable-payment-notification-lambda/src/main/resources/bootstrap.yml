@@ -1,0 +1,10 @@
+aws:
+  parameterStore:
+    parameters:
+      - prefix: /app/RMCS
+        profile-separator: "/"
+        values:
+          - /database/url
+          - /database/username
+          - /database/passwordKey
+
