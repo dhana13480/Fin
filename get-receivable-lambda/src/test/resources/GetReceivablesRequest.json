@@ -1,0 +1,19 @@
+{
+    "body-json": {
+        "correlation_id": "c20b5c45-aeee-4d15-8869-04ae3368386e",
+        "invoice": [
+            {
+                "id": "MTX409312"
+            },
+            {
+                "id": "MTX40938424"
+            },
+            {
+                "id": "MTX40938423"
+            }
+        ]
+    },
+            "context": {
+            "id_token": "1213"
+    }
+}
