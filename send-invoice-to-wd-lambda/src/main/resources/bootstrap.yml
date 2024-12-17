@@ -1,0 +1,21 @@
+aws:
+  parameterStore:
+    parameters:
+      - prefix: /app/RMCS
+        profile-separator: "/"
+        values:
+          - /database/url
+          - /database/username
+          - /database/passwordKey
+          - /s3/external/assumeRoleArn
+          - /s3/external/bucket
+          - /s3/external/keyPrefix
+          - /s3/internal/bucket
+          - /s3/internal/kms
+          - /s3/internal/keyPrefix
+          - /json/invoice/count
+          - /json/line/count
+          - /svc/username
+          - /svc/passwordKey
+          - /oauth2/client/accessTokenUrl
+          - /oauth2/client/grantType
