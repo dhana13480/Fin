@@ -1,0 +1,75 @@
+{
+  "id": "5cb85fc2-e52a-4e6d-9c1f-bef90e6e463d",
+  "receivableEntryId": "2b6d5eda-0482-4893-a064-c98dffeab6ec",
+  "action": "UPDATE",
+  "auditEntryCreatedDate": {
+    "date": {
+      "year": 2023,
+      "month": 6,
+      "day": 15
+    },
+    "time": {
+      "hour": 14,
+      "minute": 55,
+      "second": 42,
+      "nano": 278000000
+    }
+  },
+  "company": "FINRA",
+  "revenueStream": "COBRA",
+  "totalLines": "2",
+  "invoiceId": "POS636154910",
+  "transmissionId": "4e4d2461-624f-474d-9a2b-f9eea2553035",
+  "source": "API",
+  "revenueStreamReceivableId": "ed65a946-0ed5-41bc-859d-e5b4e171244e",
+  "customerId": "6361549-POS",
+  "amount": "15500.000000",
+  "clearingNumber": "",
+  "mpid": "",
+  "transactionDate": "2023-05-12T17:03:30.813",
+  "status": 16,
+  "statusReason": "Customer is Valid",
+  "createdBy": "svc_rmcs_d",
+  "createdDate": {
+    "date": {
+      "year": 2023,
+      "month": 6,
+      "day": 15
+    },
+    "time": {
+      "hour": 14,
+      "minute": 39,
+      "second": 0,
+      "nano": 873000000
+    }
+  },
+  "updatedBy": "InvoiceReceivableService",
+  "updatedDate": {
+    "date": {
+      "year": 2023,
+      "month": 6,
+      "day": 15
+    },
+    "time": {
+      "hour": 14,
+      "minute": 53,
+      "second": 4,
+      "nano": 914000000
+    }
+  },
+  "invoiceStatus": "INV",
+  "invoiceDate": {
+    "date": {
+      "year": 2023,
+      "month": 6,
+      "day": 15
+    },
+    "time": {
+      "hour": 14,
+      "minute": 53,
+      "second": 3,
+      "nano": 892000000
+    }
+  },
+  "legacy": false
+}

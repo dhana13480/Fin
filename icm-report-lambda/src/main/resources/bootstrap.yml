@@ -1,0 +1,19 @@
+aws:
+  parameterStore:
+    parameters:
+      - prefix: /app/RMCS
+        profile-separator: "/"
+        values:
+          - /database/url
+          - /database/username
+          - /database/passwordKey
+          - /email/icm/from
+          - /email/icm/to
+          - /email/icm/cc
+          - /database/ebill/url
+          - /database/ebill/username
+          - /database/ebill/passwordKey
+          - /svc/username
+          - /svc/passwordKey
+          - /oauth2/client/accessTokenUrl
+          - /oauth2/client/grantType

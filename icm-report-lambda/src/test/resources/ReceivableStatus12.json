@@ -1,0 +1,61 @@
+{
+  "id": "8b32e45d-89c2-46fd-95f8-4f773b03b416",
+  "receivableEntryId": "74e2ad86-1891-488d-8377-43dda54b1904",
+  "action": "INSERT",
+  "auditEntryCreatedDate": {
+    "date": {
+      "year": 2023,
+      "month": 6,
+      "day": 15
+    },
+    "time": {
+      "hour": 14,
+      "minute": 51,
+      "second": 9,
+      "nano": 134000000
+    }
+  },
+  "company": "FINRA",
+  "revenueStream": "COBRA",
+  "totalLines": "2",
+  "invoiceId": "POS-6361549127",
+  "transmissionId": "7b998f41-d26b-47d4-8a8e-4f170e3ace8a",
+  "source": "API",
+  "revenueStreamReceivableId": "ed65a946-0ed5-41bc-859d-e5b4e171244e",
+  "customerId": "6361549-POS",
+  "amount": "15501.000000",
+  "clearingNumber": "",
+  "mpid": "",
+  "transactionDate": "2023-05-12T17:03:30.813",
+  "status": 12,
+  "statusReason": "Receivable amount for the POS-6361549127 is expected to be 15500.0 but is 15501.0",
+  "createdBy": "svc_rmcs_d",
+  "createdDate": {
+    "date": {
+      "year": 2023,
+      "month": 6,
+      "day": 15
+    },
+    "time": {
+      "hour": 14,
+      "minute": 51,
+      "second": 9,
+      "nano": 134000000
+    }
+  },
+  "updatedBy": "svc_rmcs_d",
+  "updatedDate": {
+    "date": {
+      "year": 2023,
+      "month": 6,
+      "day": 15
+    },
+    "time": {
+      "hour": 14,
+      "minute": 51,
+      "second": 9,
+      "nano": 134000000
+    }
+  },
+  "legacy": false
+}
