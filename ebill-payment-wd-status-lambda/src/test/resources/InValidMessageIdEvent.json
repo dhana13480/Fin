@@ -1,0 +1,20 @@
+{
+  "records": [
+    {
+      "messageId": "53ba571e-4a33-456b-b6e5-274085403eae",
+      "receiptHandle": "AQEBBuZ4qO+V9+2pM8WISMDg1AD2X0y9r5SdzHc/QbPtFm2XAAcXik01BsmHkTf8uvrxx6TnUBRyPn/S9r0VkWHqZX3IpWOR8DSkrzarZUSd68pIafP/0jFmqtBW5kt8EI4FIjOZx3Hff60AgB05DpOpkFNx2uHVucqEOlpai2zev1BKp4j0LtO7w169zXJRxIf3dLYkCbe/2vql4hxhyYhxnr2WQvtS51caHjRKo98MnKl5jJiJl90qUzXdq4z8nnkB122WO9BsOREHIi6OfeTiLZp2288d8TZo+XfzFIp5fa74NgXAeDhupvj94aI6yn5kFFQ86hO0HhMAhWnOUlRbekD4nCniU7jfqQu4myDkqu/Ts4fptc1GIWrjFJOyLNsqtWXxMgm7DX6LHjMTON0NXiePBBqPnLxKAdCi9Syq8AQ=",
+      "body": "{\n  \"Type\" : \"Notification\",\n  \"MessageId\" : \"\",\n  \"TopicArn\" : \"arn:aws:sns:us-east-1:465257512377:ESMP-X-D-RMCS-NOTIFICATIONS-NOTIFICATION_TOPIC\",\n  \"Message\" : \"{\\\"revenue_stream\\\":\\\"MQPBI\\\",\\\"status\\\":\\\"COMPLETED\\\",\\\"payment\\\":{\\\"ebillId\\\":\\\"a96c8b08-ef6d-4cb9-af07-19bdee17bce2\\\"}}\"\n}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1695341407078",
+        "SenderId": "AIDAIT2UOQQY3AUEKVGXU",
+        "ApproximateFirstReceiveTimestamp": "1695341407080"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "eb9953424dcead1ea376f08e5345a9b5",
+      "eventSource": "aws:sqs",
+      "eventSourceArn": "arn:aws:sqs:us-east-1:465257512377:ESMP-X-D-RMCS-NOTIFICATIONS-NOTIFICATION_QUEUE",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}
