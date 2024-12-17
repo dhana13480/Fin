@@ -1,0 +1,20 @@
+{
+  "records": [
+    {
+      "messageId": "53ba571e-4a33-456b-b6e5-274085403eae",
+      "receiptHandle": "AQEBBuZ4qO+V9+2pM8WISMDg1AD2X0y9r5SdzHc/QbPtFm2XAAcXik01BsmHkTf8uvrxx6TnUBRyPn/S9r0VkWHqZX3IpWOR8DSkrzarZUSd68pIafP/0jFmqtBW5kt8EI4FIjOZx3Hff60AgB05DpOpkFNx2uHVucqEOlpai2zev1BKp4j0LtO7w169zXJRxIf3dLYkCbe/2vql4hxhyYhxnr2WQvtS51caHjRKo98MnKl5jJiJl90qUzXdq4z8nnkB122WO9BsOREHIi6OfeTiLZp2288d8TZo+XfzFIp5fa74NgXAeDhupvj94aI6yn5kFFQ86hO0HhMAhWnOUlRbekD4nCniU7jfqQu4myDkqu/Ts4fptc1GIWrjFJOyLNsqtWXxMgm7DX6LHjMTON0NXiePBBqPnLxKAdCi9Syq8AQ=",
+      "body": "{\n  \"Type\" : \"Notification\",\n  \"MessageId\" : \"1623e1f2-d627-52c5-b280-bc740bb89be6\",\n  \"TopicArn\" : \"arn:aws:sns:us-east-1:465257512377:ESMP-X-D-RMCS-NOTIFICATIONS-NOTIFICATION_TOPIC\",\n  \"Message\" : \"{\\\"module\\\":\\\"ENABLER\\\",\\\"status\\\":\\\"RUN_DATA_REFRESH_SUCCESS\\\"}\",\n  \"Timestamp\" : \"2023-09-22T00:10:07.034Z\",\n  \"SignatureVersion\" : \"1\",\n  \"Signature\" : \"qtSGmb+LXwqPCLsPvj/Nl0FL9l8CeYLUXcFDs1sCB2ChtWVstNRwQAPgQPGXbAdcN4n1/GKiNe9LQqUDpaHc68/yAvCq3jMiiJs+BlEufDLXJXzX53cLJLf+7EOJZRqA083GZCU1vjc4MlVAK9AZpviYflmOUMaBJcm4MM8VqWeRBtUYJEFrmXhfMvc2SIykB2jokMVrC1b5V/9qKE57hnlQpbCKq8dQTk5R1nsLVvZ4KNXRhtt3RlqUvBnwLpm07qN2w4/Zlde8TA1h6tHkb79kPbUW4QEmTE2RWqPwOl45vpMVoy4e6DzRchzqPrCJOSxCLk5hP5tcWptzdwaQUg==\",\n  \"SigningCertURL\" : \"https://sns.us-east-1.amazonaws.com/SimpleNotificationService-01d088a6f77103d0fe307c0069e40ed6.pem\",\n  \"UnsubscribeURL\" : \"https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:465257512377:ESMP-X-D-RMCS-NOTIFICATIONS-NOTIFICATION_TOPIC:12084dcf-dd2f-4b82-b4a2-122068a5f24e\"\n}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1695341407078",
+        "SenderId": "AIDAIT2UOQQY3AUEKVGXU",
+        "ApproximateFirstReceiveTimestamp": "1695341407080"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "eb9953424dcead1ea376f08e5345a9b5",
+      "eventSource": "aws:sqs",
+      "eventSourceArn": "arn:aws:sqs:us-east-1:465257512377:ESMP-X-D-RMCS-ACCOUNTING-EQUATION-NOTIFICATION-NOTIFICATION_QUEUE",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}
